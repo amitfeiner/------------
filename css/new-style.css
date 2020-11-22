@@ -1351,14 +1351,14 @@ body #story .unit4_19 textarea{ display: block;width: 100%;height: 130px; outlin
 
 /* New 2018 */
 .new_design #contentwrapper.home .home_top_bg { top: 90px; left: 5%; width: 100%; text-align: left; position: absolute; }
-.new_design .right_txt_blk a{ background: #7bd191}
+.new_design .right_txt_blk a{ background: #25c42d}
 .new_design .unit4_home .home_popup .midalteacher_show .dotted li{color: #777777; margin-bottom: 10px; font-size: 17px;}
 .new_design .unit4_home .home_popup .midalteacher_show .popup_txt{margin-left: 3%;}
 .new_design .unit4_home .home_popup .midalteacher_show .popup_txt p{ color: #777777; font-size: 17px}
 .new_design .unit4_home .home_popup .midalteacher_show .popup_txt p a{ color: #4ab9d6;}
 .new_design .unit4_home .home_popup{overflow: auto; padding-bottom: 25px;}
 .new_design .unit4_home .home_popup .midalteacher_show{top: 60px;}
-.new_design .unit4_home .popup h2 span{ color: #00ffb4}
+.new_design .unit4_home .popup h2 span{ color: #05b038}
 .new_design .popup_txt .popup:after{left: 90%;}
 .new_design .home_popup .popup_txt .popup{top: 53px;}
 .new_design .unit4_home .midalteacher_show .table_struc p{ color: #777;}
