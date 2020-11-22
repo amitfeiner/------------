@@ -1,0 +1,172 @@
+#content {
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute; top: 0
+}
+
+/* Header/footer boxes */
+
+.wideBox {
+    clear: both;
+    text-align: center;
+    margin: 70px;
+    padding: 10px;
+    background: #ebedf2;
+    border: 1px solid #333;
+}
+
+.wideBox h1 {
+    font-weight: bold;
+    margin: 20px;
+    color: #666;
+    font-size: 1.5em;
+}
+
+/* Slots for final card positions */
+
+#cardSlots {
+    margin: 50px auto 0 auto;
+    background: #ddf;
+}
+
+/* The initial pile of unsorted cards */
+
+
+#cardSlots, #cardPile {
+    width: 910px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+    box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+}
+
+#cardPile {
+    margin: 0 auto;
+    background: none;
+    border: none;
+    box-shadow: none;
+    height: 300px;
+    box-sizing: border-box;
+}
+div#cardSlots {
+    position: absolute;
+    max-width: 47%;
+    left: 0;
+    height: 100%;
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: none;
+    border: none; box-shadow: none;
+}
+
+/* Individual cards and slots */
+
+#cardSlots div, #cardPile div {
+    position: absolute;    
+    width: 175px;
+    height: 60px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+    color: #fff;
+}
+
+#cardSlots div.hovered {
+    background: #aaa;
+}
+
+#cardSlots div {
+    border: 1px solid #ffb001;
+}
+
+#cardPile div {
+    background: #ffb001;
+    color: #fff;
+    font-size: 29px; font-weight: 100;
+    position: relative;
+    display: block; float: right; margin: 0px;
+    cursor: move;
+}
+
+#cardPile div.ui-draggable-dragging {
+    -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+/* Individually coloured cards */
+
+#card1.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card2.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card3.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card4.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card5.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card6.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card7.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card8.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card9.correct { background: #ffb001; box-shadow:0 0 5px #ccc }
+#card10.correct { background:#ffb001; box-shadow:0 0 5px #ccc }
+
+.drag_page1 .three.ui-droppable {left: 69%;top: 19%;}
+.drag_page1 .two.ui-droppable {left: 70%;top: -2%;}
+.drag_page1 .one.ui-droppable {left: 12%;top: 1%;}
+.drag_page1 .four.ui-droppable {left: 73%;top: 45%;}
+.drag_page1 .five.ui-droppable {left: 7%;top: 53%;}
+.drag_page1 .six.ui-droppable {left: 71%;top: 63%;}
+.drag_page1 .seven.ui-droppable {left: 21%;top: 76%;}
+
+.drag_page2 .two.ui-droppable {left: 21%;top: 77%;}
+.drag_page2 .four.ui-droppable {left: 26%;top: 88%;}
+.drag_page2 .one.ui-droppable {left: 23%;top: 46%;}
+.drag_page2 .three.ui-droppable {left: 70%;top: 66%;}
+.drag_page2 .five.ui-droppable {left: 62%;top: 78%;}
+
+.drag_page3 .two.ui-droppable {left: 74%;top: 42%;}
+.drag_page3 .one.ui-droppable {left: 19%;top: 43%;}
+.drag_page3 #cardPile div{font-size: 20px; line-height: 40px;}
+
+.drag_page4 .two.ui-droppable {left: 21%;top: 77%;}
+.drag_page4 .four.ui-droppable {left: 26%;top: 88%;}
+.drag_page4 .one.ui-droppable {left: 23%;top: 46%;}
+.drag_page4 .three.ui-droppable {left: 70%;top: 66%;}
+
+.drag_page5 .three.ui-droppable {left: 62%;top: 76%;}
+.drag_page5 .one.ui-droppable {left: 11%;top: 44%;}
+.drag_page5 .four.ui-droppable {left: 10%;top: 70%;}
+.drag_page5 .two.ui-droppable {left: 68%;top: 52%;}
+
+.drag_page6 .three.ui-droppable {left: 68%;top: 49%;}
+.drag_page6 .one.ui-droppable {left: 26%;top: 36%;}
+.drag_page6 .two.ui-droppable {left: 21%;top: 72%;}
+
+
+.drag_page7 .one.ui-droppable:after { content: 'הכי קטן'; display: block; color: #777777; text-align: center; width:100%; position: absolute; bottom: -25px;}
+.drag_page7 .eight.ui-droppable:after { content: 'הכי גדול'; display: block; color: #777777; text-align: center; width:100%;  position: absolute; bottom: -25px;}
+
+
+.drag_page7 #cardSlots div{ position: relative; width: 122px; height: 105px; background: url(../images/new_design/cell_square.png) center center; float: left; display: block; border: none; border-radius: none; margin: 0 }
+.drag_page7 #cardPile div { position: relative; width: 122px; box-sizing: border-box; padding: 0 10px; padding-top: 3.5%; height: 105px; background: url(../images/new_design/cell_square_green.png) center center; float: left; display: block; font-size: 21px; border-radius: none; margin: 0}
+.drag_page7 div#cardSlots , .drag_page7 div#cardPile { position: relative;max-width: 980px;width: 100%;left: 0;margin: 0 auto;padding: 0;left: 0;}
+.slot_container{height: 280px; position: relative; padding-top: 120px; box-sizing: border-box; margin-top: 8%;}
+.drag_page7 div#content{left: 0px;}
+.drag_page7 #cardPile div.ui-draggable-dragging , .drag_page7 .correct {box-shadow: none !important}
+
+.game_plate #cardPile div{position: absolute; left: 0; right: 0; width: 122px; height: 122px; background: #000}
+.game_plate #cardSlots div{ position: relative}
+
+.card_container{ position: absolute; top: 200px; left: 20px; width: 155px; height: 155px;}
+.cards {position: absolute;top: 44%;left: 16%;float: left;/*margin-top: -127px;*/margin-top: 10px; cursor: pointer}
+.cards.touch img{width: 153px;}

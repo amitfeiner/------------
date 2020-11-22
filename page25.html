@@ -1,0 +1,777 @@
+
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mid</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link href="css/style.css" rel="stylesheet" />
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="js/html5shiv.min.js"></script><script src="js/respond.min.js"></script><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/new-style.css" rel="stylesheet" />
+        <link href="css/flip.css" rel="stylesheet" />
+        <link href="css/drag_and_drop.css" rel="stylesheet" />
+        <script src="js/drag_and_drop.js" defer></script>
+    </head>
+
+    <body class="new_design">
+        <!-- Loading -->
+        <div class="loading_container">
+            <div class="load"><i></i> alt=""></div>
+        </div>
+
+        <div class="popwrap">
+            <div class="popup_container pop1 page9_5">
+                <a href="#" class="close"  data-pop_data="pop1_open"></a>
+
+                <div class="video_wrape unit7_4 no_background">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YCYkjM6SKvQ" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="stage">
+            <div id='story'>
+                <div class="tools_logo clearfix">
+                    <div class="right_tools clearfix">
+                        <div class="tools pull-left">
+                            <ul>
+                                <li class="printer">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="certificate">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="global">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="eraser">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="nots">
+                                    <a href="#"></a>
+                                    <div class="textarea_field">
+                                        <textarea id="textcontent" cols="" rows=""></textarea>
+                                    </div>
+                                </li>
+                                <li class="pencil">
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="colors pull-right">
+                            <ul class="palette-case">
+                                <li class="palette pink " onClick=""></li>
+                                <li class="palette sky_blue" onClick=""></li>
+                                <li class="palette green" onClick=""></li>
+                                <li class="palette greenyellow" onClick=""></li>
+                                <li class="palette orange" onClick=""></li>
+                                <li class="palette violet" onClick=""></li>
+                                <li class="palette black" onClick=""></li>
+                                <li class="palette white" onClick=""></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="logo">
+                        <a href="index.html"></a>
+                    </div>
+
+                    <div class="right_txt_blk">
+                        <a href="#" class="dash_icon">
+                            <span></span>
+                        </a>
+                        <div class="txt">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="head_shadow"></div>
+                <div id="contentwrapper">
+                    <div class="deshbord clearfix">
+
+                        <div class="left_area height_auto">
+                            <div class="close-canvas"></div>
+
+                            <div id="content">
+                                <canvas id="canvas"> </canvas>
+                            </div>
+
+                            <div class="deshbordimg common_dash page16 unit4_3 unit7_2 unit7_5 unit9_2 unit10_3 unit10_5 unit_1" >
+                                <div class="cliffs " style="background-image: url(images/images_mimshak/page5-new.png);background-size:80%;background-position:center center;background-position-y:-330px;background-repeat:no-repeat">
+                                    <h1 >هيا نَكْتُبُ مَعًا وَصْفًا لِلصُّورَة</h1>
+
+                                    <p>يَأْتي إِلَيْنَا أَبُو فَصَادَة فِي فَصْلِ الخَريف ريشاتُهُ  <span class="droppable" data-draggable-id="رَمَادِية"></span></p>
+                                    <div class="answers-options">
+                                        <span class="greys draggable" draggable="true" style="background-color: #ff6384;" id="رَمَادِية">رَمَادِية</span>
+                                        <span class="blacks draggable" draggable="true" style="background: #ff6384;" id="سَوداء">سَوداء</span>
+                                        <span class="whites draggable" draggable="true" style="background: #ff6384;" id="بَيْضاء">بَيْضاء</span>
+                                    </div>
+                                    <br><br><p>مِنْقارُهُ<br> 
+                                        <span class="droppable" data-draggable-id="رَقيق">   </span>
+                                        <span class="droppable" data-draggable-id="أَسْوَد">   </span>
+                                        <span class="droppable" data-draggable-id="قَصير">   </span></p>
+                                    <div class="answers-options">                                    
+                                        <span class="thick draggable" draggable="true"  style="background: #ff6384;" id="سَميك">سَميك</span>
+                                        <span class="thin draggable" draggable="true"  style="background: #ff6384;" id="رَقيق">رَقيق</span>
+                                    </div>
+                                        <div class="answers-options">                                    
+                                        <span class="black draggable" draggable="true" style="background: #ff6384;" id="أَسْوَد">أَسْوَد</span>
+                                        <span class="white draggable" draggable="true" style="background: #ff6384;" id="أَبْيَض">أَبْيَض</span>
+                                        </div>
+                                        <div class="answers-options">                                    
+                                        <span class="short draggable" draggable="true" style="background: #ff6384;" id="قَصير">قَصير</span>
+                                        <span class="long draggable" draggable="true" style="background: #ff6384;" id="طَويل">طَويل</span>
+                                    </div>
+                                <!-- <i class="fas fa-horse draggable" draggable="true" style="color: #333333;" id="horse"></i>
+                                <i class="fas fa-hippo draggable" draggable="true" style="color: #ff9f40;" id="hippo"></i>
+                                <i class="fas fa-spider draggable" draggable="true" style="color: #ff99cc;" id="spider"></i> -->
+                              <!-- </section> -->
+                              <!-- <section class="droppable-elements"> -->
+                                <!-- <div class="droppable" data-draggable-id="thin"><span>thin</span></div> -->
+                                <!-- <div class="droppable" data-draggable-id="black"><span>black</span></div> -->
+                                <!-- <div class="droppable" data-draggable-id="short"><span>short</span></div> -->
+                                <!-- <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
+                                <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
+                                <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div> -->
+                              <!-- </section> -->
+                              
+
+
+<!-- <head> -->
+    <!-- <div class="drag_style">
+<style type="text/css" >
+  #div1,#div2, #div3 , #div4{
+    float: right;
+    position: relative;
+    right: 45%;
+    width: 50px;
+    height:15px;
+    margin: 10px;
+    padding:10px;
+    text-decoration: underline black;}
+
+</style>
+</div> -->
+<!-- <script>
+  
+  function allowDrop2(ev)
+  {
+    ev.preventDefault();
+  }
+  
+  function drag2(ev)
+  {
+    ev.dataTransfer.setData("Text",ev.target.id);
+  }
+  
+  function drop2(ev)
+  {
+    ev.preventDefault();
+    var data=ev.dataTransfer.getData("Text");
+    ev.target.appendChild(document.getElementById(data));
+  }
+</script> -->
+<!-- </head> -->
+<!-- <body>   -->
+   <!-- <div class="my_drag">
+  <br>
+  <p>הנחליאלי מגיע בסתיו נוצותיו </p>
+    <span id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">________</span> <br><br><br>
+    <span id="word1" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">אפורות</span>
+    <span id="word2" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">שחורות</span>
+    <span id="word3" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">לבנות</span>
+    <br><br><p>המקור שלו</p>
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">________</div>
+    <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">________</div>
+    <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">________</div>
+    <br><br><br>
+            <span id="word4" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">עבה</span>&nbsp;
+            <span id="word5" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">דק</span>&nbsp;&nbsp;&nbsp;
+            <span id="word6" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">שחור</span>&nbsp;
+            <span id="word7" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">לבן</span>&nbsp;&nbsp;&nbsp;
+
+            <span id="word8" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">קצר</span>&nbsp;
+            <span id="word9" draggable="true" ondragstart="drag(event)" style="background-color: hotpink">ארוך</span>
+  </div> -->
+<!-- </body> -->
+
+
+                                </div>                               
+                            </div>
+
+                            <div class="left_side_icons left_dash7 info">
+                                <ul>
+                                    <li class="full_icon">
+                                        <a href="javscript:void();">
+                                            <i class="icon icon2"></i>
+                                        </a>
+                                    </li>
+                                    <li class="midalteacher">
+                                        <a href="javscript:void();">
+                                            <i class="icon icon1"></i>
+                                        </a>
+                                        <div class="midalteacher_show unit9_3">
+                                            <p><strong>معلومات للمعلم</strong></p>
+                                            <p>تأملوا الصور، وإستخرجوا منها المعلومات  <br>
+                                                الموجودة حول اللحلاح، قارنوا أوجه الشبه <br>
+                                                والإختلاف بينه وبين العُنصُل؟ أكملوا الجمل <br>
+                                                بمساعدة الصور، والعناوين.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="left_right_but">
+                                <div class="left_right_button page9_17 unit10_4  un1_5">
+                                    <!-- <div class="right_side">                                        
+                                        <a href="javascript:void(0)" class="pop3" target="_blank">ציר זמן</a>
+                                        <a href="javascript:void(0)" class="pop2" target="_blank">מפה</a>
+                                        <a href="javascript:void(0)" class="pop1" target="_blank">ציטוט</a>
+                                    </div> -->
+                                </div>
+                                <div class="leftright_arrow">
+                                    <a class="left_arrow" href="page6.html"></a>
+                                    <a class="right_arrow" href="#" ></a>
+                                </div>
+
+
+                                <div class="time_line">
+                                    <div class="time_set">
+                                        <span>1</span>
+                                        <span class="total">1 \</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="bullet">
+                                    <ul>
+                                        <li>
+                                            <a class="active" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="right_area">
+                            <div class="note3">
+                                <h2>ימת החולה</h2>
+                                <h3>ייבושה והצפתה מחדש<br/>
+                                    גאוגרפיה - כיתה ו’</h3>
+                            </div>
+
+
+                             
+                         <div class="side_nav">
+                                <ul>
+                                    <li class="yello"><a href="page2.html">ظواهر فصل الخَريف</a></li>
+                                    <li class="green"><a href="page3.html">العُنْصُل </a></li>
+                                    <li class="green"><a href="page4.html">أبو فَصادة</a></li>
+                                    <li class="green"><a href="page5.html">اللحلاح</a></li>
+                                    <li class="green"><a href="page11.html"> الطيور</a></li>
+                                    <li class="green"><a href="page19.html">مهمة تنفيذية</a></li>
+                                    <li class="blue"><a href="page20.html">ملخص</a></li>
+                                    <li class="blue"><a href="page21.html">مهِمة ملاحظة</a></li>
+                                    <li class="blue"><a href="page21.html">لعبة</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="top_to">
+                                <a href="#">
+                                    <i class="top_icon"></i>
+                                    <span>סגור</span>
+                                </a>
+                            </div>
+
+
+                            <div class="info">
+
+                                <ul>
+
+                                    <li class="midalteacher">
+                                        <a href="javscript:void();">
+                                            <i class="icon icon1"></i>
+                                            <span>מידע <br>למורה</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javscript:void();">
+                                            <i class="icon icon2"></i>
+                                            <span>פרקי<br> הספר</span>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="javscript:void();">
+                                            <i class="icon icon3"></i>
+                                            <span>שער<br>הספר</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+
+                           </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- popup -->
+
+
+        <script src="js/jquery.js"></script>
+        <script src="js/htmlpreview.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/flip.js"></script> 
+
+        <script src="js/new_added.js"></script>
+
+        <script type="text/javascript">
+            var ctx, color = "rgba(0, 0, 0, 0)";
+
+
+            $(window).load(function(){                
+                $('.new_design .examination_popup.popup1_27 .inner').height(($(window).height() - 200 ))
+            })
+            $(document).ready(function () {
+
+
+
+
+                var c_offset = $("#content").offset();
+
+
+                // setup a new canvas for drawing wait for device init
+                setTimeout(function () {
+                    newCanvas();
+                }, 1000);
+
+                // reset palette selection (css) and select the clicked color for canvas strokeStyle
+                $(".palette").click(function () {
+                    $(".palette").css("border-color", "#fff");
+                    $(".palette").css("border-style", "solid");
+                    $(this).css("border-color", "#f43737");
+                    //$(this).css("border-style", "dashed");
+                    color = $(this).css("background-color");
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.beginPath();
+                    ctx.lineWidth = 12;
+
+                    ctx.strokeStyle = color;
+                    $(".container").addClass("enable");
+                });
+
+
+
+
+
+                $(".eraser a").click(function () {
+
+
+
+                    color = $(this).css("background-color");
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.beginPath();
+                    ctx.lineWidth = 5;
+                    ctx.strokeStyle = color;
+
+                    ctx.globalCompositeOperation = "destination-out";
+                    ctx.beginPath();
+                    ctx.lineWidth = 25;
+
+                    $(".container").removeClass("enable");
+                    if (!$("#canvas").hasClass("eraserr")) {
+                        $("#canvas").addClass("eraserr");
+                    } else {
+                        $("#canvas").removeClass("eraserr");
+                    }
+                    $("#canvas").removeClass("pen");
+                    ctx.fill();
+                });
+
+
+
+
+
+                // link the new button with newCanvas() function
+                $("#new").click(function () {
+                    newCanvas();
+                });
+
+                /* examination paregraph color */
+                $(".bt_y").click(function () {
+                    $('.color_y').toggleClass('active');
+                });
+                $(".bt_g").click(function () {
+                    $('.color_g').toggleClass('active');
+                });
+                $(".pop1").click(function () {
+                    $('.popup_5_1').addClass('active');
+                });
+                $(".pop2").click(function () {
+                    $('.popup_5_2').addClass('active');
+                });
+                $(".pop3").click(function () {
+                    $('.popup_5_3').addClass('active');
+                });
+                $(".close").click(function () {
+                    $('.examination_popup').removeClass('active');
+                });
+                $(".new_design .examination_popup .inner p a").click(function () {
+                    $('.new_design .examination_popup .inner span').toggleClass('active_in');
+                });
+
+
+
+            });
+
+            // function to setup a new canvas for drawing
+            function newCanvas() {
+                //define and resize canvas
+                var getht = $("#content").height();
+                var getwd = $("#content").width();
+                var canvas = '<canvas id="canvas" width="' + getwd + '" height="' + getht + '"></canvas>';
+                $("#content").html(canvas);
+
+                var stageWidth = $('#stage').width()
+                var stageHeight = $('#stage').height()
+
+                var widthFactor = stageWidth / storyWidth;
+                var heightFactor = stageHeight / storyHeight;
+
+                var scaleFactor = widthFactor;
+
+                if (widthFactor > heightFactor) {
+                    scaleFactor = heightFactor;
+                }
+
+
+                var scale_cd = 1 / scaleFactor;
+
+                // setup canvas
+                ctx = document.getElementById("canvas").getContext("2d");
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 5;
+
+                ctx.scale(scale_cd, scale_cd);
+
+                // setup to trigger drawing on mouse or touch
+                $("#canvas").drawTouch();
+                $("#canvas").drawPointer();
+                $("#canvas").drawMouse();
+                $("#canvas").addtext();
+
+
+
+            }
+
+            // prototype to	start drawing on touch using canvas moveTo and lineTo
+            $.fn.drawTouch = function () {
+                var start = function (e) {
+                    var c_offset = $("#content").offset();
+                    e = e.originalEvent;
+                    ctx.beginPath();
+                    x = e.changedTouches[0].pageX - c_offset.left;
+                    y = e.changedTouches[0].pageY - c_offset.top + 20;
+                    ctx.moveTo(x, y);
+                };
+                var move = function (e) {
+                    var c_offset = $("#content").offset();
+                    e.preventDefault();
+                    e = e.originalEvent;
+                    x = e.changedTouches[0].pageX - c_offset.left;
+                    y = e.changedTouches[0].pageY - c_offset.top + 20;
+                    ctx.lineTo(x, y);
+                    ctx.stroke();
+                };
+                ctx.lineWidth = 5;
+                $(this).on("touchstart", start);
+                $(this).on("touchmove", move);
+            };
+
+            // prototype to	start drawing on pointer(microsoft ie) using canvas moveTo and lineTo
+            $.fn.drawPointer = function () {
+                var start = function (e) {
+                    var c_offset = $("#content").offset();
+                    e = e.originalEvent;
+                    ctx.beginPath();
+                    x = e.pageX - c_offset.left;
+                    y = e.pageY - c_offset.top + 20;
+                    ctx.moveTo(x, y);
+                };
+                var move = function (e) {
+                    var c_offset = $("#content").offset();
+                    e.preventDefault();
+                    e = e.originalEvent;
+                    x = e.pageX - c_offset.left;
+                    y = e.pageY - c_offset.top + 20;
+                    ctx.lineTo(x, y);
+                    ctx.stroke();
+                };
+                ctx.lineWidth = 5;
+                $(this).on("MSPointerDown", start);
+                $(this).on("MSPointerMove", move);
+            };
+
+            // prototype to	start drawing on mouse using canvas moveTo and lineTo
+            $.fn.drawMouse = function () {
+                var clicked = 0;
+                var start = function (e) {
+                    var c_offset = $("#content").offset();
+                    clicked = 1;
+                    ctx.beginPath();
+                    x = e.pageX - c_offset.left;
+                    y = e.pageY - c_offset.top + 20;
+                    ctx.moveTo(x, y);
+                };
+                var move = function (e) {
+                    var c_offset = $("#content").offset();
+                    if (clicked) {
+                        x = e.pageX - c_offset.left;;
+                        y = e.pageY - c_offset.top + 20;
+                        ctx.lineTo(x, y);
+                        ctx.stroke();
+                    }
+                };
+                var stop = function (e) {
+                    clicked = 0;
+                };
+
+                ctx.lineWidth = 5;
+                $(this).on("mousedown", start);
+                $(this).on("mousemove", move);
+                $(window).on("mouseup", stop);
+
+            };
+
+
+
+            $(document).ready(function () {
+
+
+                $(".top_to").click(function () {
+                    $(".side_nav").slideToggle();
+                    $(".top_to").toggleClass("top_to_bottom");
+
+                    if ($(".top_to a span").text() === 'סגור') {
+                        $(".top_to a span").text('פתח');
+                    } else {
+                        $(".top_to a span").text('סגור');
+                    }
+
+                });
+
+
+                $(".tools ul li").click(function () {
+                    if ($(this).hasClass("selected")) {
+                        $(this).removeClass("selected");
+                        ctx.globalCompositeOperation = "source-over";
+                        ctx.strokeStyle = "rgba(255, 255, 255, 0)";
+                        $('#content').css("z-index", "0");
+                    } else {
+                        $(".tools ul li").removeClass("selected");
+                        $(this).addClass("selected");
+                    }
+                });
+
+
+
+                $(".pencil").click(function () {
+                    //ctx.lineWidth = 5;
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.strokeStyle = "rgba(255, 255, 255, 0)";
+                    $(".colors ").toggle();
+
+                    if (!$("#canvas").hasClass("pen")) {
+                        $("#canvas").addClass("pen");
+                    } else {
+                        $("#canvas").removeClass("pen");
+                    }
+
+                    $("#canvas").removeClass("eraserr");
+
+                });
+
+                $('.pencil').click(function (e) {
+                    e.stopPropagation();
+                })
+                $('.colors').click(function (e) {
+                    e.stopPropagation();
+                })
+
+                $(function () {
+                    $(document).click(function () {
+                        if (!$("#canvas").hasClass("pen")) {
+                            $('.colors').hide();
+                        }
+                    });
+                });
+
+                $('.nots').click(function (e) {
+                    e.stopPropagation();
+                    $("#canvas").removeClass("pen");
+                    $("#canvas").removeClass("eraserr");
+                })
+
+                $('.textarea_field').click(function (e) {
+                    e.stopPropagation();
+                })
+
+                $('.global').click(function (e) {
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.strokeStyle = "rgba(255, 255, 255, 0)";
+                    $("#canvas").removeClass("pen");
+                    $("#canvas").removeClass("eraserr");
+                })
+
+                $('.certificate').click(function (e) {
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.strokeStyle = "rgba(255, 255, 255, 0)";
+                    $("#canvas").removeClass("pen");
+                    $("#canvas").removeClass("eraserr");
+                })
+
+                $('.printer').click(function (e) {
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.strokeStyle = "rgba(255, 255, 255, 0)";
+                    $("#canvas").removeClass("pen");
+                    $("#canvas").removeClass("eraserr");
+                })
+
+
+                $(function () {
+                    $(document).click(function () {
+                        $('.textarea_field').hide();
+                        if ($(".nots").hasClass("selected")) {
+                            $(".nots").removeClass("selected");
+                        }
+                    });
+                });
+
+
+
+                $(".midalteacher").click(function () {
+
+                    $(".midalteacher_show").toggle();
+
+                });
+
+                $(".nots").click(function () {
+                    if (!$("#canvas").hasClass("pen")) {
+                        $('.colors').hide();
+                    }
+                    ctx.globalCompositeOperation = "source-over";
+                    ctx.strokeStyle = "rgba(255, 255, 255, 0)";
+                    $(".textarea_field").toggle();
+                    $(this).toggleClass("showarrow");
+                });
+
+                $(".textarea_field").click(function (e) {
+                    e.preventDefault();
+                    return false;
+                });
+
+
+                $.fn.addtext = function () {
+
+                    $(this).click(function (e) {
+                        var c_offset = $("#content").offset();
+                        //ctx.globalCompositeOperation = "source-over";
+                        ctx.font = "30px Verdana";
+                        ctx.fillStyle = "#FF0000";
+                        ctx.fillText($("#textcontent").val(), e.pageX - c_offset.left, e.pageY - c_offset.top + 20);                         $("#textcontent").val(null);
+                    });
+                };
+
+                $(".tools ul li").click(function (e) {
+                    $("#textcontent").val(null);
+                });
+
+            });
+
+
+            // prototype to	start drawing on mouse using canvas moveTo and lineTo
+            $.fn.drawMouse = function () {
+                var clicked = 0;
+                var start = function (e) {
+                    var c_offset = $("#content").offset();
+                    clicked = 1;
+                    ctx.beginPath();
+                    x = e.pageX - c_offset.left;;
+                    y = e.pageY - c_offset.top + 20;
+                    ctx.moveTo(x, y);
+                };
+                var move = function (e) {
+                    var c_offset = $("#content").offset();
+                    if (clicked) {
+                        x = e.pageX - c_offset.left;;
+                        y = e.pageY - c_offset.top + 20;
+                        ctx.lineTo(x, y);
+                        ctx.stroke();
+                    }
+                };
+                var stop = function (e) {
+                    clicked = 0;
+                };
+                $(this).on("mousedown", start);
+                $(this).on("mousemove", move);
+                $(window).on("mouseup", stop);
+            };
+
+
+            // Ajax to call other page content
+
+            var i = 1;
+
+            $("body").on("click", ".right_arrow", function () {
+
+                if (i < 34) {
+                    i = i + 1;
+                    var pageTiltle = "deshbord" + i + ".html .deshbord";
+
+                    $("#contentwrapper").load(pageTiltle);
+                }
+            });
+
+
+            $("body").on("click", ".left_arrow", function () {
+
+                if (i > 1) {
+                    i = i - 1;
+                    if (i == 1) {
+                        var pageTiltle = "deshbord.html .deshbord";
+                    } else {
+                        var pageTiltle = "deshbord" + i + ".html .deshbord";
+                    }
+
+                    $("#contentwrapper").load(pageTiltle);
+                }
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                var win_height = $(window).innerHeight()-93;
+                $('.left_area').css('height', win_height);
+            });
+        </script>
+    </body>
+
+</html>

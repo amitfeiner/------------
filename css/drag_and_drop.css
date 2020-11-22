@@ -1,0 +1,108 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+  color: #111;
+}
+
+.cliffs{
+  text-align: right 30px;
+}
+
+.draggable-elements {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  border:"1px" black;text-align: center;
+}
+
+.draggable {
+  height: 30px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin: 0px 3.5px;
+  cursor: move;
+  transition: opacity 0.2s;
+}
+
+.draggable:hover {
+  opacity: 0.5;
+}
+
+.answers-options {
+  display: inline-flex;
+  margin-top: 14px;
+  padding: 3px;
+  border: 1px solid orange;
+  width: fit-content;
+}
+
+.answers-options-page5 {
+  display: inline-flex;
+  margin-bottom: auto;
+  padding: 3px;
+  border: 1px solid orange;
+  width: fit-content;
+  background-color: lightblue;
+  margin-top: 15%;
+  left: -85px;
+  top: 50px;
+}
+
+
+.droppable {
+  width: 55px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #fff;
+  border-bottom: 3px dashed #111;
+  transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+  display: inline-block;
+}
+
+.droppable span {
+  font-size: 12px;
+  pointer-events: none; /* The element is never the target of pointer events */
+}
+
+/* Drag and Drop Related Styling */
+
+.droppable.droppable-hover {
+  /* background-color: #bee3f0; */
+  border-width: 5px;
+  transform: scale(1.1);
+}
+.droppable.dropped {
+  border-style: solid;
+  color: #fff;
+}
+.droppable.dropped span {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.droppable.dropped span {
+  pointer-events: none;
+}
+.draggable.dragged {
+  user-select: none;
+  opacity: 0.1;
+  cursor: default;
+}
+.draggable.dragged:hover {
+  opacity: 0.1;
+}
+
+
+@media (max-width: 600px) {
+  html { font-size: 14px; }
+  .draggable-elements { margin: 30px; }
+}
